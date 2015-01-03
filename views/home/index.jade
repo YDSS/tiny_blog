@@ -1,0 +1,20 @@
+extends ../layout/layout
+
+block append head
+  link(rel='stylesheet', href='../style/index.css')
+block body
+  #body
+    .container
+      .row
+        h2.blog-title-label title
+      .row
+        .input-group
+          span.input-group-addon T
+          input#blog-title.form-control(placeholder='Blog Title', type='text')
+      .row
+        h2.blog-title-label content
+      .row 
+        textarea.form-control(rows=20)
+      .row.commit-bar
+        a.btn.btn-primary.preview Priview
+        a.btn.btn-default.commit Commit

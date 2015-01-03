@@ -1,0 +1,11 @@
+.container .blog-title-label {
+  color: #cecece;
+}
+
+.container .commit-bar {
+  margin-top: 10px;
+}
+
+.container .commit-bar a {
+  margin-right: 15px;
+}
