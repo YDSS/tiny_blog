@@ -1,4 +1,4 @@
-define('jquery', function(require, exports, module){
+define('/lib/jquery/jquery', function(require, exports, module){
 
 /*!
  * jQuery JavaScript Library v1.10.2

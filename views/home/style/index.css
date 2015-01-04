@@ -1,11 +1,1 @@
-.container .blog-title-label {
-  color: #cecece;
-}
-
-.container .commit-bar {
-  margin-top: 10px;
-}
-
-.container .commit-bar a {
-  margin-right: 15px;
-}
+#body{width:100%;position:relative}#body .container .blog-title-label{color:#cecece}#body .container .commit-bar{margin-top:10px}#body .container .commit-bar a{margin-right:15px}

@@ -23,6 +23,7 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'views/home')));
+app.use(express.static(path.join(__dirname, 'views/widget/3d_loading')));
 
 app.use('/', home);
 app.use('/mark', transferMarkdown);

@@ -3,6 +3,9 @@
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+define('/lib/bootstrap/js/bootstrap', function(require, exports, module) {
+
+var jQuery = require('jquery');
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
@@ -2318,3 +2321,5 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+})
